@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom: 10px solid #90FD7E;
+    padding: 10px 20px;
+    margin-right: 0;
+}
+nav{
+   text-align: right;
+}
+
+a {
+    display: inline-flex;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family:"fira code";
+    font-weight: 500;
+    text-decoration:none;
+    margin-right: 30px;
+    align-items: center;
+}
+a::before{
+    content: "";
+    background-color: #FF00B8;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 0px #98fc88;
+    box-shadow:
+    0 0 .5rem #fff,
+    inset 0 0 .5rem #fff,
+    0 0 2rem #FF00B8,
+    inset 0 0 2rem #FF00B8,
+    0 0 4rem #FF00B8,
+    inset 0 0 4rem #FF00B8;
+    transition: box-shadow 0.4s 0.1s ease-out;
+
+}
+
+#button {
+    display:inline-block;
+    background-color:#FF00B8;
+    padding:18px 20px;
+    box-shadow: 5px 5px 0px #98fc88; /* X, Y , BLEU(SOMBRA), cor da sombra- toda vez que for pra cima tem que utilizar -*/
+    margin-right: 0;
+}
+#button:hover {
+    box-shadow:
+    0 0 .5rem #fff,
+    inset 0 0 .5rem #fff,
+    0 0 2rem #FF00B8,
+    inset 0 0 2rem #FF00B8,
+    0 0 4rem #FF00B8,
+    inset 0 0 4rem #FF00B8;
+    transition: box-shadow 0.4s 0.1s ease-out;
+}
